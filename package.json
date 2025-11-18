@@ -9,6 +9,15 @@
   "main": "dist/index.js",
   "types": "dist/index.d.ts",
   "files": ["dist"],
+  
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/ijas9118/fleet-os-shared.git"
+  },
+  "homepage": "https://github.com/ijas9118/fleet-os-shared#readme",
+  "bugs": {
+    "url": "https://github.com/ijas9118/fleet-os-shared/issues"
+  },
 
   "scripts": {
     "build": "tsc",
