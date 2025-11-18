@@ -1,0 +1,29 @@
+{
+  "name": "@ijas/fleet-os-shared",
+  "version": "1.0.0",
+  "packageManager": "pnpm@10.18.3",
+  "description": "Shared utilities for Fleet OS microservices",
+  "author": "Ijas",
+  "license": "MIT",
+  "keywords": ["fleet-os", "shared", "microservices"],
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "files": ["dist"],
+
+  "scripts": {
+    "build": "tsc",
+    "typecheck": "tsc --noEmit",
+    "lint": "eslint .",
+    "lint:fix": "eslint . --fix",
+    "prepare": "npm run build"
+  },
+
+  "dependencies": {
+    "zod": "^4.1.12"
+  },
+
+  "devDependencies": {
+    "@types/node": "^24.10.0",
+    "typescript": "^5.9.3"
+  }
+}
