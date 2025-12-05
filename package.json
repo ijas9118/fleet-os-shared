@@ -1,6 +1,6 @@
 {
   "name": "@ahammedijas/fleet-os-shared",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "packageManager": "pnpm@10.18.3",
   "description": "Shared utilities for Fleet OS microservices",
   "author": "Ijas",
