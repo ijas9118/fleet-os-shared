@@ -1,5 +1,11 @@
 # @ahammedijas/fleet-os-shared
 
+## 1.2.5
+
+### Patch Changes
+
+- ae7d480: remove warehouse manager enum
+
 ## 1.2.4
 
 ### Patch Changes
